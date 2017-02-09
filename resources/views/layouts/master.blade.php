@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
-
+    <link href="{{URL::to('css/events/events.css')  }}" rel="stylesheet" type="text/css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
  <!--bootstrap -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossorigin="anonymous">
-    <link href="{{URL::to('css/layout/layout.css')  }}" rel="stylesheet" type="text/css">
+
     <link href="{{URL::to('css/demo.css')  }}" rel="stylesheet" type="text/css">
     <link href="{{URL::to('css/material-kit.css')  }}" rel="stylesheet" type="text/css">
 
     <script src="{{URL::to('js/jquery.min.js')  }}"></script>
+    <link href="{{URL::to('css/layout/layout.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/home/customtext.css')  }}" rel="stylesheet" type="text/css">
+
 
 </head>
-<body>
+<body class="background" >
 @include('partials.header')
 <div class="container" style="border:0px solid black;">
 @yield('content')

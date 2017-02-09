@@ -1,7 +1,9 @@
 body,html{
     margin:0px;
     padding:0px;
+
 }
+
 .container{
     margin:0px;
     padding:0px;
@@ -11,11 +13,14 @@ body,html{
     margin: 0px;
     padding: 0px;
 }
-.row{
-    padding:0px;
-    maring:0px;
-}
+
 h1{
     margin:0px;
     padding:0px;
+}
+.row{
+    width:30%;
+}
+.background{
+    background-color:rgba(250,249,254,1);
 }
