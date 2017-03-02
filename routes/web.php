@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home.index');
 });
+Route::get('/register/volunteer', function () {
+    return view('register.member');
+})->name('register.member');
+Route::get('/register/participant', function () {
+    return view('register.participant');
+})->name('register.member');

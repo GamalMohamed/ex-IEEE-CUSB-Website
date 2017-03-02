@@ -1,5 +1,5 @@
 
-<div class="col-md-12" style="">
+<div class="col-md-12" style="margin-top:5%">
 
     <div class="col-md-6 col-md-offset-3 " style="margin-top:1em;">
         <div class="profile-tabs">

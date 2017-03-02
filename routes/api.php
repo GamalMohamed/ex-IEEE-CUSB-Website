@@ -13,6 +13,22 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:api');
+
+Route::group(['prefix'=>'v1'],function(){
+    Route::resource('members-forms','MemberFormController',[
+    'except'=>['edit','update']
+    ]);
+
+        Route::resource('participants-forms','ParticipantFormController',[
+        'except'=>['edit','update']
+    ]);
+
+    Route::resource('members','MemberController');
+
+    Route::resource('participants','ParticipantController');
+
+
+
+    
+
+});
