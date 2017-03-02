@@ -72,11 +72,11 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Join us <b class="caret"></b></a>
 
                     <ul class="dropdown-menu">
-                        <li><a href="#">As IEEE member</a></li>
+                        <li><a href="https://www.ieee.org/index.html">As IEEE member</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">As a CUSB volunteer</a></li>
+                        <li><a href="{{ Route("register.member") }}">As a CUSB volunteer</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">As a Participant</a></li>
+                        <li><a href="{{ Route("register.participant") }}">As a Participant</a></li>
 
 
                     </ul>

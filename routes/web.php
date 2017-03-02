@@ -19,4 +19,4 @@ Route::get('/register/volunteer', function () {
 })->name('register.member');
 Route::get('/register/participant', function () {
     return view('register.participant');
-})->name('register.member');
+})->name('register.participant');

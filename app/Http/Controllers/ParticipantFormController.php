@@ -36,12 +36,12 @@ class ParticipantFormController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'nat_id'=>'required',
+            'nat_id'=>'required|numeric',
             'first_name'=>'required',
             'last_name'=>'required',
             'gender'=>'required|max:1',
-            'age'=>'required',
-            'mobile'=>'required',
+            'age'=>'required|numeric',
+            'mobile'=>'required|numeric',
             'email'=>'required|email',
             'university'=>'required',
             'major'=>'required'
@@ -62,8 +62,9 @@ class ParticipantFormController extends Controller
 
 
         $response = [
-            'msg' => 'registeration completed',
-            'nat_id'=>$participantRequest->nat_id,
+            'message' => 'registeration completed',
+            'form'=>$participantRequest,
+            'name'=>$participantRequest->first_name
 
 
 

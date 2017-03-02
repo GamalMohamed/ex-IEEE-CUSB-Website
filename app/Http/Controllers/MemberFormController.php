@@ -38,12 +38,12 @@ class MemberFormController extends Controller
 
 
         $this->validate($request,[
-            'nat_id'=>'required',
+            'nat_id'=>'required|numeric',
             'first_name'=>'required',
             'last_name'=>'required',
             'gender'=>'required|max:1',
-            'age'=>'required',
-            'mobile'=>'required',
+            'age'=>'required|numeric',
+            'mobile'=>'required|numeric',
             'email'=>'required|email',
             'university'=>'required',
             'major'=>'required'
