@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
-    <link href="{{URL::to('css/events/events.css')  }}" rel="stylesheet" type="text/css">
+    <title>IEEE-CUSB</title>
+
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
  <!--bootstrap -->
@@ -14,34 +15,66 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossorigin="anonymous">
-    <link href="{{URL::to('css/demo.css')  }}" rel="stylesheet" type="text/css">
-    <link href="{{URL::to('css/material-kit.css')  }}" rel="stylesheet" type="text/css">
 
-    <script src="{{URL::to('js/jquery.min.js')  }}"></script>
-    <link href="{{URL::to('css/layout/layout.css')  }}" rel="stylesheet" type="text/css">
-    <link href="{{URL::to('css/home/customtext.css')  }}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<STYLE>
+    <script src="{{URL::to('js/jquery.min.js')  }}"></script>
+        <!-- libraries from downloaded theme !-->
+    <link href="{{URL::to('css/theme/font-awesome.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/animate.min.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/owl.carousel.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/owl.transitions.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/prettyPhoto.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/main.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/theme/responsive.css')  }}" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" sizes="144x144"  href="{{URL::to('assets/images/theme/ico/favicon.ico')}}">
+
+    <link rel="shortcut icon"
+          href="{{URL::to('assets/images/theme/ico/apple-touch-icon-144-precomposed.png')}}">
+
+    <link rel="shortcut icon"
+          href="{{URL::to('assets/images/theme/ico/apple-touch-icon-114-precomposed.png')}}" sizes="114x114">
+
+    <link rel="shortcut icon"
+          href="{{URL::to('assets/images/theme/ico/apple-touch-icon-72-precomposed.png')}}" sizes="72x72">
+
+    <link rel="shortcut icon"
+          href="{{URL::to('assets/images/theme/ico/apple-touch-icon-57-precomposed.png')}}">
+
+
+
+
+
+    <STYLE>
     body{
     background-color:white;
     }
 </STYLE>
 
 </head>
-<body >
+<body  id="home" class="homepage" >
 
 @include('partials.header')
 
-<div class="container" >
+
 @yield('content')
-</div>
+
 @include('partials.footer')
 
+
 <script src="{{URL::to('js/bootstrap.min.js')  }}"></script>
-<script src="{{URL::to('js/bootstrap-datepicker.js')  }}"></script>
-<script src="{{URL::to('js/material.min.js')  }}"></script>
-<script src="{{URL::to('js/material-kit.js')  }}"></script>
-<script src="{{URL::to('js/nouislider.min.js')  }}"></script>
-<script src="{{URL::to('js/jssor.slider-22.1.9.mini.js')  }}"></script>
+
+
+/* lib */
+<script src="{{URL::to('js/theme/jquery.js')  }}"></script>
+<!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+<script src="{{URL::to('js/theme/owl.carousel.min.js')  }}"></script>
+<script src="{{URL::to('js/theme/mousescroll.js')  }}"></script>
+<script src="{{URL::to('js/theme/smoothscroll.js')  }}"></script>
+<script src="{{URL::to('js/theme/jquery.prettyPhoto.js')  }}"></script>
+<script src="{{URL::to('js/theme/jquery.isotope.min.js')  }}"></script>
+<script src="{{URL::to('js/theme/jquery.inview.min.js')  }}"></script>
+<script src="{{URL::to('js/theme/wow.min.js')  }}"></script>
+<script src="{{URL::to('js/theme/main.js')  }}"></script>
 </body>
 </html>
