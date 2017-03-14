@@ -1,5 +1,10 @@
 @extends('layouts.master')
 @section('content')
 @include('partials.slider')
-
+@include('partials.ieee')
+@include('partials.team')
+@include('partials.animatednumbers')
+@include('partials.people')
+@include('partials.latestarticles')
+@include('partials.getintouch')
 @endsection
