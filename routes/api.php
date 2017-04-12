@@ -18,6 +18,12 @@ Route::group(['prefix'=>'v1'],function(){
     Route::resource('members-forms','MemberFormController',[
     'except'=>['edit','update']
     ]);
+    Route::resource('events','EventController',[
+
+    ]);
+    Route::resource('workshops','WorkshopController',[
+        'except'=>['edit','update']
+    ]);
 
         Route::resource('participants-forms','ParticipantFormController',[
         'except'=>['edit','update']

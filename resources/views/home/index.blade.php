@@ -7,4 +7,5 @@
 @include('partials.people')
 @include('partials.latestarticles')
 @include('partials.getintouch')
+<script src="{{URL::to('js/theme/main.js')  }}"></script>
 @endsection

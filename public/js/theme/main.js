@@ -2,10 +2,10 @@ jQuery(function($) {'use strict';
 
 	// Navigation Scroll
 	$(window).scroll(function(event) {
-		Scroll();
+	//	Scroll();
 	});
 
-	$('.navbar-collapse ul li a').on('click', function() {  
+	$('.navbar-collapse ul li a').on('click', function() {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 		return false;
 	});
@@ -17,7 +17,7 @@ jQuery(function($) {'use strict';
 		var winTop      =   $(window).scrollTop();
 		var rangeTop    =   200;
 		var rangeBottom =   500;
-		$('.navbar-collapse').find('.scroll a').each(function(){
+		/*$('.navbar-collapse').find('.scroll a').each(function(){
 			contentTop.push( $( $(this).attr('href') ).offset().top);
 			contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
 		})
@@ -25,9 +25,9 @@ jQuery(function($) {'use strict';
 			if ( winTop > contentTop[i] - rangeTop ){
 				$('.navbar-collapse li.scroll')
 				.removeClass('active')
-				.eq(i).addClass('active');			
+				.eq(i).addClass('active');
 			}
-		})
+		})*/
 	};
 
 	$('#tohash').on('click', function(){
@@ -56,7 +56,7 @@ jQuery(function($) {'use strict';
 	      percentTime;
 	 
 	    //Init the carousel
-	    $("#main-slider").find('.owl-carousel').owlCarousel({
+	 /*   $("#main-slider").find('.owl-carousel').owlCarousel({
 	      slideSpeed : 500,
 	      paginationSpeed : 500,
 	      singleItem : true,
@@ -71,7 +71,7 @@ jQuery(function($) {'use strict';
 	      //autoHeight : true,
 	      transitionStyle : "fadeUp"
 	    });
-	 
+	 */
 	    //Init progressBar where elem is $("#owl-demo")
 	    function progressBar(elem){
 	      $elem = elem;
@@ -137,10 +137,10 @@ jQuery(function($) {'use strict';
 	$(window).load(function(){'use strict';
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
 		var $portfolio = $('.portfolio-items');
-		$portfolio.isotope({
+		/*$portfolio.isotope({
 			itemSelector : '.portfolio-item',
 			layoutMode : 'fitRows'
-		});
+		});*/
 		
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
@@ -206,28 +206,5 @@ jQuery(function($) {'use strict';
 			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
 		});
 	});
-
-	//Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});
-
-	//Google Map
-	var latitude = $('#google-map').data('latitude');
-	var longitude = $('#google-map').data('longitude');
-	function initialize_map() {
-		var myLatlng = new google.maps.LatLng(latitude,longitude);
-		var mapOptions = {
-			zoom: 14,
-			scrollwheel: false,
-			center: myLatlng
-		};
-		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-		var marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map
-		});
-	}
-//	google.maps.event.addDomListener(window, 'load', initialize_map);
 
 });

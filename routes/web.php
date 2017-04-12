@@ -17,6 +17,14 @@ Route::get('/', function () {
 Route::get('/register/volunteer', function () {
     return view('register.member');
 })->name('register.member');
-Route::get('/register/participant', function () {
+    Route::get('/register/participant', function () {
     return view('register.participant');
 })->name('register.participant');
+
+Route::get('/register/event', function () {
+    return view('register.event');
+})->name('register.event');
+
+Route::get('/register/workshop', function () {
+    return view('register.workshop');
+})->name('register.workshop');
