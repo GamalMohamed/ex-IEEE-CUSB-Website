@@ -58,14 +58,14 @@
 
 
 @yield('content')
-
+@yield('script')
 @include('partials.footer')
 
 
 <script src="{{URL::to('js/bootstrap.min.js')  }}"></script>
 
 
-/* lib */
+
 <script src="{{URL::to('js/theme/jquery.js')  }}"></script>
 <!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
 <script src="{{URL::to('js/theme/owl.carousel.min.js')  }}"></script>

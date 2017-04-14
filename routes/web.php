@@ -28,3 +28,14 @@ Route::get('/register/event', function () {
 Route::get('/register/workshop', function () {
     return view('register.workshop');
 })->name('register.workshop');
+
+Route::get('/events', function () {
+    return view('events.index');
+})->name('events.index');
+
+Route::get('/workshops', function () {
+    return view('workshops.index');
+})->name('workshops.index');
+Route::get('/events/{id}', function () {
+    return view('events.eventviewer');
+})->name('events.eventviewer.index');
