@@ -13,15 +13,14 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="scroll active"><a href="#home">Home</a></li>
-                    <li class="scroll"><a href="#features">Features</a></li>
-                    <li class="scroll"><a href="#services">Services</a></li>
-                    <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                    <li class="scroll"><a href="#about">About</a></li>
-                    <li class="scroll"><a href="#meet-team">Team</a></li>
-                    <li class="scroll"><a href="#pricing">Pricing</a></li>
-                    <li class="scroll"><a href="#blog">Blog</a></li>
-                    <li class="scroll"><a href="#get-in-touch">Contact</a></li>
+                    <li class="scroll active"><a href="{{Route('home.index')}}">Home</a></li>
+                    <li class="scroll"><a href="{{Route('register.member')}}">Volunteer</a></li>
+                    <li class="scroll"><a href="{{Route('register.participant')}}">Participant</a></li>
+                    <li class="scroll"><a href="{{Route('events.index')}}">Events</a></li>
+                    <li class="scroll"><a href="#about">Hall of fame</a></li>
+                    <li class="scroll"><a href="#meet-team">About us</a></li>
+                    <li class="scroll"><a href="#pricing">Contact us</a></li>
+
                 </ul>
             </div>
         </div><!--/.container-->

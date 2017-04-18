@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown">Latest Articles</h2>
-            <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <p class="text-center wow fadeInDown">IEEE <br> Latest articles to be viewed soon</p>
         </div>
 
         <div class="row">
@@ -15,13 +15,16 @@
                                 <img class="img-responsive" src="images/blog/01.jpg" alt="">
                                 <span class="post-format post-format-video"><i class="fa fa-film"></i></span>
                             </div>
-                            <div class="entry-date">25 November 2014</div>
-                            <h2 class="entry-title"><a href="#">While now the fated Pequod had been so long afloat this</a></h2>
+                            <div class="entry-date">19 April 2017</div>
+                            <h2 class="entry-title"><a href="#">IEEE general meeting and beyond our vision</a></h2>
                         </header>
 
                         <div class="entry-content">
-                            <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                            <a class="btn btn-primary" href="#">Read More</a>
+                            <P>
+                                IEEE vision seems to be very clear, Aiming to build a respected community which
+                                develop your skills either being technical or non-technical
+                            </P>
+                            <a class="btn btn-primary" href="#">Read More(soon)</a>
                         </div>
 
 
@@ -37,13 +40,15 @@
                         </div>
                         <div class="media-body">
                             <header class="entry-header">
-                                <div class="entry-date">01 December 2014</div>
-                                <h2 class="entry-title"><a href="#">BeReviews was a awesome envent in dhaka</a></h2>
+                                <div class="entry-date">01 may 2017</div>
+                                <h2 class="entry-title"><a href="#">IEEE main event !</a></h2>
                             </header>
 
                             <div class="entry-content">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                <a class="btn btn-primary" href="#">Read More</a>
+                                <P>
+                                    IEEE main event will be hosted soon ,stay tuned.
+                                </P>
+                                <a class="btn btn-primary" href="#">Read More(soon)</a>
                             </div>
 
 

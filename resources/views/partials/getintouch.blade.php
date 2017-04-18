@@ -8,5 +8,5 @@
     </div>
 </section><!--/#get-in-touch-->
 <h2>
-hena hyb2a feh map
+
 </h2>

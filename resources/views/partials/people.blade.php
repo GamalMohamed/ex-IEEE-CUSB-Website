@@ -10,15 +10,15 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                            <h4>Adele</h4>
-                            <small>Treatment, storage, and disposal (TSD) worker</small>
+                            <h4>Jimmy</h4>
+                            <small>Microsoft student club member</small>
                             <p>IEEE is one of the best student activities</p>
                         </div>
                         <div class="item">
-                            <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                            <h4>Shakira</h4>
-                            <small>Treatment, storage, and disposal (TSD) worker</small>
-                            <p>IEEE is one of the best student activities</p>
+                            <p><img class="img-circle img-thumbnail" src="images/testimonial/02.jpg" alt=""></p>
+                            <h4>ALI</h4>
+                            <small>IEEE-website developers' team member</small>
+                            <p>IEEE makes things more meaningful regarding social community</p>
                         </div>
                     </div>
 

@@ -15,7 +15,9 @@
                         <h3>Jimmy</h3>
                         <span>Project Manager</span>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                    <p>Backed by some of the biggest names in microsoft-egypt students' club, computer engineering
+                        student, cairo university.
+                    </p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -33,7 +35,7 @@
                         <h3>Mohamed Ali</h3>
                         <span>Developer</span>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                    <p>Back end developer,computer engineering student , cairo university.</p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -48,10 +50,10 @@
                         <img class="img-responsive" src="images/team/03.jpg" alt="">
                     </div>
                     <div class="team-info">
-                        <h3>Pahlwan</h3>
-                        <span>Designer</span>
+                        <h3>Reham Abdellatef</h3>
+                        <span>Developer</span>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                    <p>Front end developer,computer engineering student , cairo university.</p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -66,10 +68,10 @@
                         <img class="img-responsive" src="images/team/04.jpg" alt="">
                     </div>
                     <div class="team-info">
-                        <h3>Nasir uddin</h3>
-                        <span>UI/UX</span>
+                        <h3>Mostafa Yasser Darwish</h3>
+                        <span>Project Manager</span>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                    <p>Front end developer,computer engineering student , cairo university</p>
                     <ul class="social-icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -97,9 +99,9 @@
                 <div class="progress">
                     <div class="progress-bar progress-bar-primary" role="progressbar" data-width="90">90%</div>
                 </div>
-                <strong>JOOMLA DEVELOPMENT</strong>
+                <strong>WEB DEVELOPMENT</strong>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-primary" role="progressbar" data-width="65">65%</div>
+                    <div class="progress-bar progress-bar-primary" role="progressbar" data-width="99">99%</div>
                 </div>
             </div>
 
@@ -123,19 +125,23 @@
                     <div id="tab-content" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
+                            <p>The point is that IEEE-CUSB provide wonderful means to acquire greatly appreciated
+                                experience, that what we did in 2010</p>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
+                            <p>The point is that IEEE-CUSB provide wonderful means to acquire greatly appreciated
+                                experience, that what we did in 2011</p>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
+                            <p>The point is that IEEE-CUSB provide wonderful means to acquire greatly appreciated
+                                experience, that what we did in 2012</p>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
+                            <p>The point is that IEEE-CUSB provide wonderful means to acquire greatly appreciated
+                                experience, that what we did in 2013</p>
                         </div>
                     </div>
                 </div>

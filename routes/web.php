@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('home.index');
-});
+})->name('home.index');
 Route::get('/register/volunteer', function () {
     return view('register.member');
 })->name('register.member');
@@ -32,6 +32,12 @@ Route::get('/register/workshop', function () {
 Route::get('/events', function () {
     return view('events.index');
 })->name('events.index');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
 Route::get('/workshops', function () {
     return view('workshops.index');
