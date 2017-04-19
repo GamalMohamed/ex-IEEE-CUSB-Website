@@ -1,0 +1,14 @@
+
+
+#box{
+max-width:inherit;
+}
+
+h2{
+    text-align:center;
+    color:#fff;
+}
+    @media(max-width: 767px) {
+         iframe {max-width:100%}
+    
+}     

@@ -1,0 +1,46 @@
+
+/*	Animations
+------------------------------------------ */
+
+
+.mike {
+	-webkit-animation: mike-move 2.5s 2.5s ease-out forwards,
+	                   mike-float 3.2s infinite;
+}
+
+.form-register
+{
+    -webkit-animation: form-register-move 3s 3s ease-out forwards,
+     form-register-float 3.3s ease-out forwards;
+	                  
+}
+/*	Keyframes - WebKit only
+------------------------------------------ */
+
+
+
+
+@-webkit-keyframes mike-move {
+	100% { bottom: 70%; }
+}
+
+@-webkit-keyframes mike-float {
+	50% { -webkit-transform: rotateZ(5deg) translateY(-5px); }
+}
+
+
+
+
+@-webkit-keyframes form-register-move {
+	100% {bottom: 5%; top: 30%; }
+}
+
+
+
+
+
+
+
+
+
+

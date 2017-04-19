@@ -42,6 +42,9 @@ Route::get('/contact', function () {
 Route::get('/workshops', function () {
     return view('workshops.index');
 })->name('workshops.index');
+Route::get('/workshops/{id}', function () {
+    return view('workshops.workshopviewer');
+})->name('workshops.workshopviewer');
 Route::get('/events/{id}', function () {
     return view('events.eventviewer');
 })->name('events.eventviewer.index');

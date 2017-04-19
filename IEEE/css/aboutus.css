@@ -1,0 +1,249 @@
+          body {
+ 
+  left: 0;
+
+  right: 0;
+ 
+  font-family: "Codystar";
+  overflow-x: hidden;
+}  
+
+
+    
+    
+h1 {
+  margin-right: 0.15em;
+  font-weight: bold;
+  font-size: 8em;
+  font-family:fantasy;
+  color: #055;
+  letter-spacing: 1em;
+  animation: space 1.5s forwards ease-out;
+  animation-delay: 3.3s;
+  
+}
+h1 span {
+      color:blue;
+
+  display: inline-block;
+}
+h1 span:nth-child(1) {
+  animation: fall 1s forwards ease-out alternate;
+}
+h1 span:nth-child(2) {
+  animation: fall2 1.5s forwards ease-out alternate;
+}
+h1 span:nth-child(3) {
+  animation: fall3 2s forwards ease-out alternate;
+}
+h1 span:nth-child(4) {
+  animation: fall4 2.5s forwards ease-out alternate;
+}
+    h1 span:nth-child(5) {
+  animation: fall5 1s forwards ease-out alternate;
+}
+h1 span:nth-child(6) {
+  animation: fall6 1.5s forwards ease-out alternate;
+}
+h1 span:nth-child(7) {
+  animation: fall7 2s forwards ease-out alternate;
+}
+h1 span:nth-child(8) {
+  animation: fall8 2.5s forwards ease-out alternate;
+}
+
+h2 {
+font-family:cursive;
+  font-size: 3em;
+  margin-bottom: 0.15em;
+   
+}
+h2:nth-child(2) {
+  animation: fall2 3.7s forwards ease-in-out alternate;
+    font-size: 1.5em;
+}
+h2:nth-child(3) {
+  
+  animation: fall3 3.9s forwards ease-in-out alternate;
+}
+h2:nth-child(4) {
+
+  animation: fall4 4.2s forwards ease-in-out alternate;
+}
+ 
+
+.star {
+  animation: star 3s forwards ease-in-out alternate;
+}
+    
+@keyframes star {
+  0% {
+    opacity: 0;
+    transform: scale(0.75) translateY(-0.75em);
+  }
+  20% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+    transform: scale(1);
+  }
+ 
+}
+    
+@keyframes space  {
+  to {
+    letter-spacing: 0.0em;
+  }
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-50em);
+  }
+}
+@keyframes fall2 {
+  0% {
+    transform: translateX(-50em);
+  }
+}
+@keyframes fall3 {
+  0% {
+    transform: translateX(50em);
+  }
+}
+    @keyframes fall4 {
+  0% {
+    transform: translateY(50em);
+  }
+}
+    
+   
+        
+@keyframes cir {
+  0% {
+    opacity: 0;
+    transform: scale(0.75) translateY(-0.75em);
+  }
+  20% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+    transform: scale(1);
+  }
+ 
+}
+
+.ih-item {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+    
+.ihh-item.circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+     color: #fff;
+  text-align: center;
+      background: cornflowerblue;
+ animation: cir 3s forwards ease-in-out alternate;
+}
+
+.ihh-item.circle .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 50%;
+}
+.ihh-item.circle .info h3 {
+   font-family:monospace;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 50px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+}
+    .ihh-item.circle .info p {
+        font-family:cursive;
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 25px;
+}
+
+ 
+.cirr {
+  font-family:fantasy;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 300px;
+  text-align: center;
+  background: #000
+}
+h3
+{
+     font-family:cursive;
+}
+
+ @media(max-width: 767px) {
+     .ihh-item.circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+     color: #fff;
+  text-align: center;
+      background: cornflowerblue;
+ animation: cir 3s forwards ease-in-out alternate;
+}
+
+.ihh-item.circle .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 50%;
+}
+.ihh-item.circle .info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+}
+    .ihh-item.circle .info p {
+ font-family:cursive;
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 13px;
+}
+     
+     img {max-width:100%}
+   
+}     

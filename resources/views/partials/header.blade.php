@@ -17,6 +17,7 @@
                     <li class="scroll"><a href="{{Route('register.member')}}">Volunteer</a></li>
                     <li class="scroll"><a href="{{Route('register.participant')}}">Participant</a></li>
                     <li class="scroll"><a href="{{Route('events.index')}}">Events</a></li>
+                    <li class="scroll"><a href="{{Route('workshops.index')}}">Workshops</a></li>
                     <li class="scroll"><a href="#about">Hall of fame</a></li>
                     <li class="scroll"><a href="#meet-team">About us</a></li>
                     <li class="scroll"><a href="#pricing">Contact us</a></li>

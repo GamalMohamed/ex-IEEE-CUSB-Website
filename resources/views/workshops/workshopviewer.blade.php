@@ -269,21 +269,14 @@
                         <div class="desc"></div>
                         <h4>Description</h4>
                         <div class="desc" id="description"></div>
-                        <h4>Place</h4>
+                        <h4>Date</h4>
 
-                        <div class="desc" id="place"></div>
+                        <div class="desc" id="date"></div>
                         <h4>Tag</h4>
 
                         <div class="desc" id="tag"></div>
-                        <h4>Host</h4>
 
-                        <div class="desc" id="host"></div>
-                        <h4>Sponsors</h4>
 
-                        <div class="desc" id="sponsors"></div>
-                        <h4>Date</h4>
-
-                        <div class="desc" id="date">aaaa</div>
 
 
 
@@ -296,7 +289,7 @@
                         <a class="btn btn-primary btn-sm" rel="publisher"
                            href="https://plus.google.com/shahnuralam">
                             <i class="fa fa-facebook"></i>
-                            </a>
+                        </a>
 
                     </div>
                 </div>
@@ -312,15 +305,12 @@
         $(document).ready(function(){
             // url parameter
             var id=window.location.href.split('/').pop();
-            $.get( "../api/v1/events/"+id).done(function(data) {
-                        $('#name').text(data.name);
-                    $('#place').text(data.place);
-                    $('#date').text(data.date.split(' ')[0]);
-                    $('#tag').text(data.tag);
+            $.get( "../api/v1/workshops/"+id).done(function(data) {
+                $('#name').text(data.name);
+                $('#description').text(data.description);
+                $('#date').text(data.startDate);
+                $('#tag').text(data.tag);
 
-
-                    $('#sponsors').text(data.sponsors);
-                    $('#description').text(data.description);
 
                 console.log(data);
             });
