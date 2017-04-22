@@ -26,7 +26,8 @@
     <link href="{{URL::to('css/theme/prettyPhoto.css')  }}" rel="stylesheet" type="text/css">
     <link href="{{URL::to('css/theme/main.css')  }}" rel="stylesheet" type="text/css">
     <link href="{{URL::to('css/theme/responsive.css')  }}" rel="stylesheet" type="text/css">
-
+    <link href="{{URL::to('css/foundation.min.css')  }}" rel="stylesheet" type="text/css">
+    <link href="{{URL::to('css/sstyle.css')  }}" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" sizes="144x144"  href="{{URL::to('assets/images/theme/ico/favicon.ico')}}">
 
     <link rel="shortcut icon"

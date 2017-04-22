@@ -33,11 +33,17 @@ Route::get('/events', function () {
     return view('events.index');
 })->name('events.index');
 Route::get('/about', function () {
-    return view('about');
+    return view('home.about');
 })->name('about');
 Route::get('/contact', function () {
-    return view('contact');
+    return view('home.contact');
 })->name('contact');
+Route::get('/board', function () {
+    return view('home.board');
+})->name('board');
+Route::get('/halloffame', function () {
+    return view('home.halloffame');
+})->name('halloffame');
 
 Route::get('/workshops', function () {
     return view('workshops.index');

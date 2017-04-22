@@ -18,9 +18,12 @@
                     <li class="scroll"><a href="{{Route('register.participant')}}">Participant</a></li>
                     <li class="scroll"><a href="{{Route('events.index')}}">Events</a></li>
                     <li class="scroll"><a href="{{Route('workshops.index')}}">Workshops</a></li>
-                    <li class="scroll"><a href="#about">Hall of fame</a></li>
-                    <li class="scroll"><a href="#meet-team">About us</a></li>
-                    <li class="scroll"><a href="#pricing">Contact us</a></li>
+                    <li class="scroll"><a href="{{Route('board')}}">Board</a></li>
+                    <li class="scroll"><a href="{{Route('about')}}">About us</a></li>
+                    <li class="scroll"><a href="{{Route('contact')}}">Contact us</a></li>
+
+                    <li class="scroll"><a href="{{Route('halloffame')}}">Hall of fame</a></li>
+
 
                 </ul>
             </div>
