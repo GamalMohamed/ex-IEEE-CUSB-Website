@@ -44,11 +44,11 @@ html, body {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .dropdown-menu {
